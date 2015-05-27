@@ -1,0 +1,16 @@
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\BLL.dll
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\BLL.pdb
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\BOL.dll
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\DAL.dll
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\Ninject.dll
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\EntityFramework.dll
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\BOL.pdb
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\DAL.pdb
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\Ninject.xml
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\EntityFramework.xml
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\obj\Debug\BLL.dll
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\obj\Debug\BLL.pdb
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\BLL.dll.config
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BLL\bin\Debug\EntityFramework.SqlServer.xml

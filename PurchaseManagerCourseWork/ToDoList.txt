@@ -1,0 +1,12 @@
+1) Create DB
+2) Create BOL
+3) Create DAL
+4) Create AccessToDB in BLL
+5) Bootstrap
+6) Create All Views
+	6.1) Login
+	6.2) Registration
+	6.3) MyPouches
+	6.4) AddPouch
+	6.5) MyPurchases
+	6.6) AddPurchase

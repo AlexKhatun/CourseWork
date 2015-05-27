@@ -1,0 +1,10 @@
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BOL\bin\Debug\BOL.dll.config
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BOL\bin\Debug\BOL.dll
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BOL\bin\Debug\BOL.pdb
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BOL\bin\Debug\EntityFramework.dll
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BOL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BOL\bin\Debug\EntityFramework.xml
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BOL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BOL\obj\Debug\BOL.dll
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BOL\obj\Debug\BOL.pdb
+C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork\BOL\obj\Debug\BOL.csprojResolveAssemblyReference.cache
