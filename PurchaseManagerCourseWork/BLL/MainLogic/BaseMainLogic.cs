@@ -7,9 +7,9 @@ using BLL.DataConnection;
 
 namespace BLL.MainLogic
 {
-    class BaseMainLogic
+    public class BaseMainLogic
     {
-        private BaseBs objBs;
+        protected BaseBs objBs;
 
         public BaseMainLogic()
         {

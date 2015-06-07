@@ -43,7 +43,9 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -54,6 +56,7 @@
     <Compile Include="DataConnection\BaseBs.cs" />
     <Compile Include="DataConnection\PouchBs.cs" />
     <Compile Include="DataConnection\PurchaseBs.cs" />
+    <Compile Include="DataConnection\PurchaseManagerMembershipProvider.cs" />
     <Compile Include="DataConnection\UserBs.cs" />
     <Compile Include="Infrastructure\Bindings.cs" />
     <Compile Include="MainLogic\BaseMainLogic.cs" />

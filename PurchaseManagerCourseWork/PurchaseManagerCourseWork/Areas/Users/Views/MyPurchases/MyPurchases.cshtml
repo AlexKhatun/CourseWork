@@ -1,0 +1,70 @@
+﻿@using PurchaseManagerCourseWork.Areas.Users.Controllers
+@model IEnumerable<BOL.Purchase>
+
+@{
+    ViewBag.Title = "MyPurchases";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>MyPurchases</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Index", "AddPurchase")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Priority)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Period)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pouch.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User.Email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Priority)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Period)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pouch.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.User.Email)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Index", new { id=item.PurchaseId, controller = "PurchaseDetails" }) |
+            @Html.ActionLink("Delete", "DeletePurchase", new { id=item.PurchaseId })
+        </td>
+    </tr>
+}
+
+</table>
