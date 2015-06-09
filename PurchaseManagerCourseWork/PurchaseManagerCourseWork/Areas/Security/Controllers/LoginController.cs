@@ -23,6 +23,7 @@ namespace PurchaseManagerCourseWork.Areas.Security.Controllers
 
         public ActionResult SignIn(User user)
         {
+            user.Password = WorkWithUser.GetPasswordHash(user.Password);
             if (Membership.ValidateUser(user.Email, user.Password))
             {
                 FormsAuthentication.SetAuthCookie(user.Email, true);

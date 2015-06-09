@@ -25,14 +25,22 @@ namespace PurchaseManagerCourseWork.Areas.Users.Controllers
         {
             User user = objBs.UserBs.GetAll().FirstOrDefault(x => x.Email == System.Web.HttpContext.Current.User.Identity.Name);
             pouch.UserId = user.UserId;
-            try
+            WorkWithPouch workWithPouch = new WorkWithPouch();
+            if (workWithPouch.CheckForUniquePouch(pouch))
             {
-                objBs.PouchBs.Insert(pouch);
-                ViewBag.Message = "Success!";
+                try
+                {
+                    objBs.PouchBs.Insert(pouch);
+                    ViewBag.Message = "Успешно!";
+                }
+                catch (Exception)
+                {
+                    ViewBag.Message = "Ошибка!";
+                }
             }
-            catch (Exception)
+            else
             {
-                ViewBag.Message = "Failed!";
+                ViewBag.Message = "Такой кошелек уже существует!";
             }
             return View("AddPouch");
         }

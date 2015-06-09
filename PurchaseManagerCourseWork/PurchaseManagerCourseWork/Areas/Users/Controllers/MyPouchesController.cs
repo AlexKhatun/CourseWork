@@ -29,8 +29,24 @@ namespace PurchaseManagerCourseWork.Areas.Users.Controllers
 
         public ActionResult DeletePouch(int id)
         {
+            if (objBs.PurchaseBs.GetAll().Count() != 0)
+            {
+                for (int i = 0; i <= objBs.PurchaseBs.GetAll().Max(x => x.PurchaseId); i++)
+                {
+                    try
+                    {
+                        if (objBs.PurchaseBs.GetById(i).PouchId == id)
+                        {
+                            objBs.PurchaseBs.Delete(i);
+                        }
+                    }
+                    catch (Exception)
+                    {
+                    }
+                }
+            }
             objBs.PouchBs.Delete(id);
-            string messageDeleted = "Deleted Successfuly";
+            string messageDeleted = "Успешно удалено!";
             return RedirectToAction("Index", new {message = messageDeleted});
         }
 

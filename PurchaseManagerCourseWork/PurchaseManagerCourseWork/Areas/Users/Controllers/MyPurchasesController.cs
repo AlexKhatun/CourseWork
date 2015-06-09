@@ -29,7 +29,7 @@ namespace PurchaseManagerCourseWork.Areas.Users.Controllers
         public ActionResult DeletePurchase(int id)
           {
             objBs.PurchaseBs.Delete(id);
-            string messageDeleted = "Deteled Successfuly";
+            string messageDeleted = "Успешно удалено!";
             return RedirectToAction("Index", new {message = messageDeleted});
         }
 

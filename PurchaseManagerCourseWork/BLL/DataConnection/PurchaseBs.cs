@@ -32,7 +32,15 @@ namespace BLL.DataConnection
 
         public void Insert(Purchase purchase)
         {
-            int id = objDb.GetAll().Max(i => i.PurchaseId);
+            int id = 0;
+            try
+            {
+                id = objDb.GetAll().Max(i => i.PurchaseId);
+            }
+            catch(Exception)
+            {
+                
+            }
             purchase.PurchaseId = id + 1;
             objDb.Insert(purchase);
         }

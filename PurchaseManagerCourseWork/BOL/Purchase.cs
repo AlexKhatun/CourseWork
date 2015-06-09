@@ -7,6 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.ComponentModel.DataAnnotations;
+
 namespace BOL
 {
     using System;
@@ -20,6 +22,7 @@ namespace BOL
         public string Name { get; set; }
         public decimal Price { get; set; }
         public int Priority { get; set; }
+        [DisplayFormat(DataFormatString = "{0:dd'/'MM'/'yyyy}")]
         public Nullable<System.DateTime> Period { get; set; }
         public int Status { get; set; }
     

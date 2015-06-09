@@ -13,7 +13,6 @@ namespace BLL.DataConnection
     public class UserBs
     {
         private IUserRepository objDb;
-
         public UserBs()
         {
             IKernel kernel = new StandardKernel(new Binding());
@@ -39,6 +38,7 @@ namespace BLL.DataConnection
 
         public void Delete(int id)
         {
+
             objDb.Delete(id);
         }
 

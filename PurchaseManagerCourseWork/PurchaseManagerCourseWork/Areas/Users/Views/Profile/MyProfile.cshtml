@@ -1,0 +1,38 @@
+﻿@model BOL.User
+
+@{
+    ViewBag.Title = "MyProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script>
+    function ConfirmDelete() {
+        return confirm("Вы уверены, что хотите удалить профиль? Это действие нельзя будет отменить!");
+    }
+</script>
+<h2>MProfile</h2>
+
+<div>
+    <h4>User</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Delete Profile", "DeleteProfile", new { id = Model.UserId }, new {onclick = "return ConfirmDelete()"}) |
+</p>

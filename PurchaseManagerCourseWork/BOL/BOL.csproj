@@ -51,6 +51,7 @@
     <Compile Include="Pouch.cs">
       <DependentUpon>PurchaseManagerModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="PouchValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Purchase.cs">
       <DependentUpon>PurchaseManagerModel.tt</DependentUpon>
@@ -70,9 +71,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>PurchaseManagerModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="PurchaseValidation.cs" />
     <Compile Include="User.cs">
       <DependentUpon>PurchaseManagerModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="UserValidate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

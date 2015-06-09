@@ -18,11 +18,19 @@ namespace BLL.MainLogic
         }
         public decimal CountMonthPayment()
         {
-            if (CountFreeMoney() <= 0)
+            if (CountFreeMoney() < 0)
             {
-                throw new Exception("You can't buy it, we sorry:(");
+                throw new Exception("Простите, но по нашим данным, Вы не можете себе этого позволить:(");
             }
             int monthCount = Convert.ToInt32(Convert.ToDateTime(purchase.Period).Month - DateTime.Now.Month);
+            if (monthCount == 0)
+            {
+                monthCount = 1;
+            }
+            if (monthCount < 0)
+            {
+                throw new Exception("Вы просрочили покупку на " + -monthCount + " месяцев");
+            }
             decimal price = purchase.Price/monthCount;
             return price;
         }

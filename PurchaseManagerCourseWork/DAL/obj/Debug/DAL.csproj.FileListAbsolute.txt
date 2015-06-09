@@ -22,3 +22,15 @@ C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCou
 C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork — копия\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork — копия\DAL\obj\Debug\DAL.dll
 C:\Users\AlexKhatuntsev\Documents\Visual Studio 2013\Projects\PurchaseManagerCourseWork — копия\DAL\obj\Debug\DAL.pdb
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\bin\Debug\DAL.dll.config
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\bin\Debug\DAL.dll
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\bin\Debug\DAL.pdb
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\bin\Debug\BOL.dll
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\bin\Debug\EntityFramework.dll
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\bin\Debug\BOL.pdb
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\bin\Debug\EntityFramework.xml
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\obj\Debug\DAL.dll
+C:\Users\AlexKhatuntsev\Documents\GitHub\CourseProject\PurchaseManagerCourseWork\DAL\obj\Debug\DAL.pdb
