@@ -236,7 +236,6 @@
     <Content Include="Areas\Users\Views\Home\Home.cshtml" />
     <Content Include="Areas\Security\Views\Login\Login.cshtml" />
     <Content Include="Areas\Users\Views\AddPouch\AddPouch.cshtml" />
-    <Content Include="Areas\Users\Views\AddPurchase\AddPurchase.cshtml" />
     <Content Include="Areas\Users\Views\MyPouches\MyPouches.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -249,6 +248,7 @@
     <Content Include="Areas\Users\Views\MyPurchases\MyPurchases.cshtml" />
     <Content Include="Areas\Users\Views\PurchaseDetails\PurchaseDetails.cshtml" />
     <Content Include="Areas\Users\Views\PouchDetails\PouchDetails.cshtml" />
+    <Content Include="Areas\Users\Views\AddPurchase\AddPurchase.cshtml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

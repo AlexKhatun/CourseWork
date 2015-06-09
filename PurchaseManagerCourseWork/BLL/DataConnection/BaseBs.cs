@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.DataConnection
 {
+   
     public class BaseBs
     {
         public PurchaseBs PurchaseBs { get; set; }

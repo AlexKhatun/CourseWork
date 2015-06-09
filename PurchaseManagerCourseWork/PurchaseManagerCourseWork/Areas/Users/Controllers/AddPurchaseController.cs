@@ -16,6 +16,8 @@ namespace PurchaseManagerCourseWork.Areas.Users.Controllers
 
         public ActionResult Index()
         {
+            var db = new PurchaseManagerEntities();
+            ViewBag.PouchId = new SelectList(db.Pouch.Where(x=>x.User.Email == System.Web.HttpContext.Current.User.Identity.Name), "PouchId", "Name");
             return View("AddPurchase");
         }
 
